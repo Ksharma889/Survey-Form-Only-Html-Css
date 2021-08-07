@@ -140,8 +140,14 @@ body {
     /* Firefox */
 }
 
-@media screen and(max-width: 738px){
+@media screen and (max-width: 738px) {
     #form-div{
-        width: 94%;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #survey-form{
+        padding: 1.3em;
     }
 }
